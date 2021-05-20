@@ -1,0 +1,87 @@
+﻿  Building Custom Rule G:/yolo/darknet-master/CMakeLists.txt
+  Microsoft(R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"G:\yolo\darknet-master\include" /I"G:\yolo\darknet-master\src" /I"G:\yolo\darknet-master\3rdparty\stb\include" /IG:\opencv\build\include /I"G:\yolo\darknet-master\3rdparty\pthreads\include" /W1 /WX- /diagnostics:column /Ox /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_CMAKE_LIBS /D OPENCV /D _CRT_RAND_S /D NOMINMAX /D _USE_MATH_DEFINES /D _TIMESPEC_DEFINED /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"darknet.dir\Release\\" /Fd"darknet.dir\Release\vc142.pdb" /Gd /TC /wd4013 /wd4018 /wd4028 /wd4047 /wd4068 /wd4090 /wd4101 /wd4113 /wd4133 /wd4190 /wd4244 /wd4267 /wd4305 /wd4477 /wd4996 /wd4819 /errorReport:prompt "G:\yolo\darknet-master\src\darknet.c" "G:\yolo\darknet-master\src\activation_layer.c" "G:\yolo\darknet-master\src\activations.c" "G:\yolo\darknet-master\src\art.c" "G:\yolo\darknet-master\src\avgpool_layer.c" "G:\yolo\darknet-master\src\batchnorm_layer.c" "G:\yolo\darknet-master\src\blas.c" "G:\yolo\darknet-master\src\box.c" "G:\yolo\darknet-master\src\captcha.c" "G:\yolo\darknet-master\src\cifar.c" "G:\yolo\darknet-master\src\classifier.c" "G:\yolo\darknet-master\src\coco.c" "G:\yolo\darknet-master\src\col2im.c" "G:\yolo\darknet-master\src\compare.c" "G:\yolo\darknet-master\src\connected_layer.c" "G:\yolo\darknet-master\src\conv_lstm_layer.c" "G:\yolo\darknet-master\src\convolutional_layer.c" "G:\yolo\darknet-master\src\cost_layer.c" "G:\yolo\darknet-master\src\cpu_gemm.c" "G:\yolo\darknet-master\src\crnn_layer.c" "G:\yolo\darknet-master\src\crop_layer.c" "G:\yolo\darknet-master\src\dark_cuda.c" "G:\yolo\darknet-master\src\data.c" "G:\yolo\darknet-master\src\deconvolutional_layer.c" "G:\yolo\darknet-master\src\demo.c" "G:\yolo\darknet-master\src\detection_layer.c" "G:\yolo\darknet-master\src\detector.c" "G:\yolo\darknet-master\src\dice.c" "G:\yolo\darknet-master\src\dropout_layer.c" "G:\yolo\darknet-master\src\gaussian_yolo_layer.c" "G:\yolo\darknet-master\src\gemm.c" "G:\yolo\darknet-master\src\getopt.c" "G:\yolo\darknet-master\src\gettimeofday.c" "G:\yolo\darknet-master\src\go.c" "G:\yolo\darknet-master\src\gru_layer.c" "G:\yolo\darknet-master\src\im2col.c" "G:\yolo\darknet-master\src\image.c" "G:\yolo\darknet-master\src\layer.c" "G:\yolo\darknet-master\src\list.c" "G:\yolo\darknet-master\src\local_layer.c" "G:\yolo\darknet-master\src\lstm_layer.c" "G:\yolo\darknet-master\src\matrix.c" "G:\yolo\darknet-master\src\maxpool_layer.c" "G:\yolo\darknet-master\src\network.c" "G:\yolo\darknet-master\src\nightmare.c" "G:\yolo\darknet-master\src\normalization_layer.c" "G:\yolo\darknet-master\src\option_list.c" "G:\yolo\darknet-master\src\parser.c" "G:\yolo\darknet-master\src\region_layer.c" "G:\yolo\darknet-master\src\reorg_layer.c" "G:\yolo\darknet-master\src\reorg_old_layer.c" "G:\yolo\darknet-master\src\rnn.c" "G:\yolo\darknet-master\src\rnn_layer.c" "G:\yolo\darknet-master\src\rnn_vid.c" "G:\yolo\darknet-master\src\route_layer.c" "G:\yolo\darknet-master\src\sam_layer.c" "G:\yolo\darknet-master\src\scale_channels_layer.c" "G:\yolo\darknet-master\src\shortcut_layer.c" "G:\yolo\darknet-master\src\softmax_layer.c" "G:\yolo\darknet-master\src\super.c" "G:\yolo\darknet-master\src\swag.c" "G:\yolo\darknet-master\src\tag.c" "G:\yolo\darknet-master\src\tree.c" "G:\yolo\darknet-master\src\upsample_layer.c" "G:\yolo\darknet-master\src\utils.c" "G:\yolo\darknet-master\src\voxel.c" "G:\yolo\darknet-master\src\writing.c" "G:\yolo\darknet-master\src\yolo.c" "G:\yolo\darknet-master\src\yolo_layer.c"
+  darknet.c
+  activation_layer.c
+  activations.c
+  art.c
+  avgpool_layer.c
+  batchnorm_layer.c
+  blas.c
+  box.c
+  captcha.c
+  cifar.c
+  classifier.c
+  coco.c
+  col2im.c
+  compare.c
+  connected_layer.c
+  conv_lstm_layer.c
+  convolutional_layer.c
+  cost_layer.c
+  cpu_gemm.c
+  crnn_layer.c
+  コードを生成中...
+  コンパイル中...
+  crop_layer.c
+  dark_cuda.c
+  data.c
+  deconvolutional_layer.c
+  demo.c
+  detection_layer.c
+  detector.c
+  dice.c
+  dropout_layer.c
+  gaussian_yolo_layer.c
+  gemm.c
+  getopt.c
+  gettimeofday.c
+  go.c
+  gru_layer.c
+  im2col.c
+  image.c
+  layer.c
+  list.c
+  local_layer.c
+  コードを生成中...
+  コンパイル中...
+  lstm_layer.c
+  matrix.c
+  maxpool_layer.c
+  network.c
+  nightmare.c
+  normalization_layer.c
+  option_list.c
+  parser.c
+  region_layer.c
+  reorg_layer.c
+  reorg_old_layer.c
+  rnn.c
+  rnn_layer.c
+  rnn_vid.c
+  route_layer.c
+  sam_layer.c
+  scale_channels_layer.c
+  shortcut_layer.c
+  softmax_layer.c
+  super.c
+  コードを生成中...
+  コンパイル中...
+  swag.c
+  tag.c
+  tree.c
+  upsample_layer.c
+  utils.c
+  voxel.c
+  writing.c
+  yolo.c
+  yolo_layer.c
+  コードを生成中...
+  Microsoft(R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"G:\yolo\darknet-master\include" /I"G:\yolo\darknet-master\src" /I"G:\yolo\darknet-master\3rdparty\stb\include" /IG:\opencv\build\include /I"G:\yolo\darknet-master\3rdparty\pthreads\include" /W1 /WX- /diagnostics:column /Ox /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_CMAKE_LIBS /D OPENCV /D _CRT_RAND_S /D NOMINMAX /D _USE_MATH_DEFINES /D _TIMESPEC_DEFINED /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"darknet.dir\Release\\" /Fd"darknet.dir\Release\vc142.pdb" /Gd /TP /wd4013 /wd4018 /wd4028 /wd4047 /wd4068 /wd4090 /wd4101 /wd4113 /wd4133 /wd4190 /wd4244 /wd4267 /wd4305 /wd4477 /wd4996 /wd4819 /errorReport:prompt "G:\yolo\darknet-master\src\http_stream.cpp" "G:\yolo\darknet-master\src\image_opencv.cpp"
+  http_stream.cpp
+  image_opencv.cpp
+  コードを生成中...
+  darknet.vcxproj -> G:\yolo\yolo_210417\Release\darknet.exe

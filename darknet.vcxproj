@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{26353AE1-A812-3A80-BC20-ADF023F34300}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>darknet</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\yolo\yolo_210417\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">darknet.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">darknet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\yolo\yolo_210417\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">darknet.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">darknet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\yolo\yolo_210417\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">darknet.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">darknet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\yolo\yolo_210417\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">darknet.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">darknet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\yolo\darknet-master\include;G:\yolo\darknet-master\src;G:\yolo\darknet-master\3rdparty\stb\include;G:\opencv\build\include;G:\yolo\darknet-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\yolo\darknet-master\include;G:\yolo\darknet-master\src;G:\yolo\darknet-master\3rdparty\stb\include;G:\opencv\build\include;G:\yolo\darknet-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\yolo\darknet-master\include;G:\yolo\darknet-master\src;G:\yolo\darknet-master\3rdparty\stb\include;G:\opencv\build\include;G:\yolo\darknet-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\opencv\build\x64\vc15\lib\opencv_world430d.lib;G:\yolo\darknet-master\3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/yolo/yolo_210417/Debug/darknet.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/yolo/yolo_210417/Debug/darknet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\yolo\darknet-master\include;G:\yolo\darknet-master\src;G:\yolo\darknet-master\3rdparty\stb\include;G:\opencv\build\include;G:\yolo\darknet-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\yolo\darknet-master\include;G:\yolo\darknet-master\src;G:\yolo\darknet-master\3rdparty\stb\include;G:\opencv\build\include;G:\yolo\darknet-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\yolo\darknet-master\include;G:\yolo\darknet-master\src;G:\yolo\darknet-master\3rdparty\stb\include;G:\opencv\build\include;G:\yolo\darknet-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\yolo\darknet-master\3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/yolo/yolo_210417/Release/darknet.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/yolo/yolo_210417/Release/darknet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\yolo\darknet-master\include;G:\yolo\darknet-master\src;G:\yolo\darknet-master\3rdparty\stb\include;G:\opencv\build\include;G:\yolo\darknet-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\yolo\darknet-master\include;G:\yolo\darknet-master\src;G:\yolo\darknet-master\3rdparty\stb\include;G:\opencv\build\include;G:\yolo\darknet-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\yolo\darknet-master\include;G:\yolo\darknet-master\src;G:\yolo\darknet-master\3rdparty\stb\include;G:\opencv\build\include;G:\yolo\darknet-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\yolo\darknet-master\3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/yolo/yolo_210417/MinSizeRel/darknet.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/yolo/yolo_210417/MinSizeRel/darknet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\yolo\darknet-master\include;G:\yolo\darknet-master\src;G:\yolo\darknet-master\3rdparty\stb\include;G:\opencv\build\include;G:\yolo\darknet-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\yolo\darknet-master\include;G:\yolo\darknet-master\src;G:\yolo\darknet-master\3rdparty\stb\include;G:\opencv\build\include;G:\yolo\darknet-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\yolo\darknet-master\include;G:\yolo\darknet-master\src;G:\yolo\darknet-master\3rdparty\stb\include;G:\opencv\build\include;G:\yolo\darknet-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\opencv\build\x64\vc15\lib\opencv_world430.lib;G:\yolo\darknet-master\3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/yolo/yolo_210417/RelWithDebInfo/darknet.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/yolo/yolo_210417/RelWithDebInfo/darknet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\yolo\darknet-master\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/yolo/darknet-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+G:\cmake\bin\cmake.exe -SG:/yolo/darknet-master -BG:/yolo/yolo_210417 --check-stamp-file G:/yolo/yolo_210417/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\cmake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;G:\cmake\share\cmake-3.20\Modules\CMakeCCompiler.cmake.in;G:\cmake\share\cmake-3.20\Modules\CMakeCCompilerABI.c;G:\cmake\share\cmake-3.20\Modules\CMakeCInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeCXXCompiler.cmake.in;G:\cmake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp;G:\cmake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeCompilerIdDetection.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCXXCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompileFeatures.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompilerABI.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompilerId.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeFindBinUtils.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeParseImplicitIncludeInfo.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeParseImplicitLinkInfo.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeParseLibraryArchitecture.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeTestCCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeTestCXXCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeTestCompilerCommon.cmake;G:\cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;G:\cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;G:\cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\ARMClang-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\NVHPC-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\TI-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CompilerId\VS-10.vcxproj.in;G:\cmake\share\cmake-3.20\Modules\FindOpenMP.cmake;G:\cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;G:\cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;G:\cmake\share\cmake-3.20\Modules\FindThreads.cmake;G:\cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;G:\cmake\share\cmake-3.20\Modules\Internal\FeatureTesting.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-Determine-CXX.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;G:\cmake\share\cmake-3.20\Modules\SelectLibraryConfigurations.cmake;G:\cmake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;G:\opencv\build\OpenCVConfig-version.cmake;G:\opencv\build\OpenCVConfig.cmake;G:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;G:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;G:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;G:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;G:\yolo\darknet-master\DarknetConfig.cmake.in;G:\yolo\darknet-master\cmake\Modules\FindPThreads_windows.cmake;G:\yolo\darknet-master\cmake\Modules\FindStb.cmake;G:\yolo\darknet-master\src\version.h.in;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeCCompiler.cmake;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeCXXCompiler.cmake;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeRCCompiler.cmake;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\yolo\yolo_210417\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/yolo/darknet-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+G:\cmake\bin\cmake.exe -SG:/yolo/darknet-master -BG:/yolo/yolo_210417 --check-stamp-file G:/yolo/yolo_210417/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\cmake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;G:\cmake\share\cmake-3.20\Modules\CMakeCCompiler.cmake.in;G:\cmake\share\cmake-3.20\Modules\CMakeCCompilerABI.c;G:\cmake\share\cmake-3.20\Modules\CMakeCInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeCXXCompiler.cmake.in;G:\cmake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp;G:\cmake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeCompilerIdDetection.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCXXCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompileFeatures.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompilerABI.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompilerId.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeFindBinUtils.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeParseImplicitIncludeInfo.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeParseImplicitLinkInfo.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeParseLibraryArchitecture.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeTestCCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeTestCXXCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeTestCompilerCommon.cmake;G:\cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;G:\cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;G:\cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\ARMClang-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\NVHPC-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\TI-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CompilerId\VS-10.vcxproj.in;G:\cmake\share\cmake-3.20\Modules\FindOpenMP.cmake;G:\cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;G:\cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;G:\cmake\share\cmake-3.20\Modules\FindThreads.cmake;G:\cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;G:\cmake\share\cmake-3.20\Modules\Internal\FeatureTesting.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-Determine-CXX.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;G:\cmake\share\cmake-3.20\Modules\SelectLibraryConfigurations.cmake;G:\cmake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;G:\opencv\build\OpenCVConfig-version.cmake;G:\opencv\build\OpenCVConfig.cmake;G:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;G:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;G:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;G:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;G:\yolo\darknet-master\DarknetConfig.cmake.in;G:\yolo\darknet-master\cmake\Modules\FindPThreads_windows.cmake;G:\yolo\darknet-master\cmake\Modules\FindStb.cmake;G:\yolo\darknet-master\src\version.h.in;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeCCompiler.cmake;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeCXXCompiler.cmake;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeRCCompiler.cmake;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\yolo\yolo_210417\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/yolo/darknet-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+G:\cmake\bin\cmake.exe -SG:/yolo/darknet-master -BG:/yolo/yolo_210417 --check-stamp-file G:/yolo/yolo_210417/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\cmake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;G:\cmake\share\cmake-3.20\Modules\CMakeCCompiler.cmake.in;G:\cmake\share\cmake-3.20\Modules\CMakeCCompilerABI.c;G:\cmake\share\cmake-3.20\Modules\CMakeCInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeCXXCompiler.cmake.in;G:\cmake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp;G:\cmake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeCompilerIdDetection.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCXXCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompileFeatures.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompilerABI.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompilerId.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeFindBinUtils.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeParseImplicitIncludeInfo.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeParseImplicitLinkInfo.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeParseLibraryArchitecture.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeTestCCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeTestCXXCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeTestCompilerCommon.cmake;G:\cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;G:\cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;G:\cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\ARMClang-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\NVHPC-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\TI-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CompilerId\VS-10.vcxproj.in;G:\cmake\share\cmake-3.20\Modules\FindOpenMP.cmake;G:\cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;G:\cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;G:\cmake\share\cmake-3.20\Modules\FindThreads.cmake;G:\cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;G:\cmake\share\cmake-3.20\Modules\Internal\FeatureTesting.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-Determine-CXX.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;G:\cmake\share\cmake-3.20\Modules\SelectLibraryConfigurations.cmake;G:\cmake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;G:\opencv\build\OpenCVConfig-version.cmake;G:\opencv\build\OpenCVConfig.cmake;G:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;G:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;G:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;G:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;G:\yolo\darknet-master\DarknetConfig.cmake.in;G:\yolo\darknet-master\cmake\Modules\FindPThreads_windows.cmake;G:\yolo\darknet-master\cmake\Modules\FindStb.cmake;G:\yolo\darknet-master\src\version.h.in;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeCCompiler.cmake;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeCXXCompiler.cmake;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeRCCompiler.cmake;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\yolo\yolo_210417\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/yolo/darknet-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+G:\cmake\bin\cmake.exe -SG:/yolo/darknet-master -BG:/yolo/yolo_210417 --check-stamp-file G:/yolo/yolo_210417/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\cmake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;G:\cmake\share\cmake-3.20\Modules\CMakeCCompiler.cmake.in;G:\cmake\share\cmake-3.20\Modules\CMakeCCompilerABI.c;G:\cmake\share\cmake-3.20\Modules\CMakeCInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeCXXCompiler.cmake.in;G:\cmake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp;G:\cmake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeCompilerIdDetection.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCXXCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompileFeatures.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompilerABI.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeDetermineCompilerId.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeFindBinUtils.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeParseImplicitIncludeInfo.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeParseImplicitLinkInfo.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeParseLibraryArchitecture.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeTestCCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeTestCXXCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CMakeTestCompilerCommon.cmake;G:\cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;G:\cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;G:\cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\ARMClang-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\NVHPC-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\TI-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\cmake\share\cmake-3.20\Modules\CompilerId\VS-10.vcxproj.in;G:\cmake\share\cmake-3.20\Modules\FindOpenMP.cmake;G:\cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;G:\cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;G:\cmake\share\cmake-3.20\Modules\FindThreads.cmake;G:\cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;G:\cmake\share\cmake-3.20\Modules\Internal\FeatureTesting.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-Determine-CXX.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\Windows.cmake;G:\cmake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;G:\cmake\share\cmake-3.20\Modules\SelectLibraryConfigurations.cmake;G:\cmake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;G:\opencv\build\OpenCVConfig-version.cmake;G:\opencv\build\OpenCVConfig.cmake;G:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;G:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;G:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;G:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;G:\yolo\darknet-master\DarknetConfig.cmake.in;G:\yolo\darknet-master\cmake\Modules\FindPThreads_windows.cmake;G:\yolo\darknet-master\cmake\Modules\FindStb.cmake;G:\yolo\darknet-master\src\version.h.in;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeCCompiler.cmake;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeCXXCompiler.cmake;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeRCCompiler.cmake;G:\yolo\yolo_210417\CMakeFiles\3.20.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\yolo\yolo_210417\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G:\yolo\darknet-master\src\darknet.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\activation_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\activations.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\art.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\avgpool_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\batchnorm_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\blas.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\box.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\captcha.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\cifar.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\classifier.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\coco.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\col2im.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\compare.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\connected_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\conv_lstm_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\convolutional_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\cost_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\cpu_gemm.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\crnn_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\crop_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\dark_cuda.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\data.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\deconvolutional_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\demo.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\detection_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\detector.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\dice.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\dropout_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\gaussian_yolo_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\gemm.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\getopt.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\gettimeofday.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\go.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\gru_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\im2col.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\image.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\list.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\local_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\lstm_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\matrix.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\maxpool_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\network.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\nightmare.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\normalization_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\option_list.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\parser.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\region_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\reorg_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\reorg_old_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\rnn.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\rnn_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\rnn_vid.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\route_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\sam_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\scale_channels_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\shortcut_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\softmax_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\super.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\swag.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\tag.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\tree.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\upsample_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\utils.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\voxel.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\writing.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\yolo.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\yolo_layer.c" />
+    <ClCompile Include="G:\yolo\darknet-master\src\http_stream.cpp" />
+    <ClCompile Include="G:\yolo\darknet-master\src\image_opencv.cpp" />
+    <ClInclude Include="G:\yolo\darknet-master\src\activation_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\activations.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\avgpool_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\batchnorm_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\blas.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\box.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\classifier.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\col2im.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\connected_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\conv_lstm_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\convolutional_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\cost_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\crnn_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\crop_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\dark_cuda.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\darkunistd.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\data.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\deconvolutional_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\demo.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\detection_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\dropout_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\gaussian_yolo_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\gemm.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\getopt.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\gettimeofday.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\gru_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\http_stream.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\httplib.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\im2col.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\image.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\image_opencv.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\list.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\local_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\lstm_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\matrix.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\maxpool_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\network.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\normalization_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\option_list.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\parser.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\region_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\reorg_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\reorg_old_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\rnn_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\route_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\sam_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\scale_channels_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\shortcut_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\softmax_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\tree.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\upsample_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\utils.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\version.h" />
+    <ClInclude Include="G:\yolo\darknet-master\src\yolo_layer.h" />
+    <ClInclude Include="G:\yolo\darknet-master\include\darknet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\yolo\yolo_210417\ZERO_CHECK.vcxproj">
+      <Project>{192B6080-8084-3D79-83E4-8B0B19234A88}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

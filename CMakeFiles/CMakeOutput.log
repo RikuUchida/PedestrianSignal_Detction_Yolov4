@@ -1,0 +1,390 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+.NET Framework 向け Microsoft (R) Build Engine バージョン 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation.All rights reserved.
+
+2021/04/18 13:24:06 にビルドを開始しました。
+ノード 1 上のプロジェクト "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdC\CompilerIdC.vcxproj" (既定のターゲット)。
+PrepareForBuild:
+  ディレクトリ "Debug\" を作成しています。
+  ディレクトリ "Debug\CompilerIdC.tlog\" を作成しています。
+InitializeBuildStatus:
+  "AlwaysCreate" が指定されたため "Debug\CompilerIdC.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+  G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  ファイル "Debug\CompilerIdC.tlog\unsuccessfulbuild" を削除しています。
+  "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate" のタッチ タスクを実行しています。
+プロジェクト "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdC\CompilerIdC.vcxproj" (既定のターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+    0 個の警告
+    0 エラー
+
+経過時間 00:00:02.80
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "G:/yolo/yolo_210417/CMakeFiles/3.20.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+.NET Framework 向け Microsoft (R) Build Engine バージョン 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation.All rights reserved.
+
+2021/04/18 13:24:09 にビルドを開始しました。
+ノード 1 上のプロジェクト "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (既定のターゲット)。
+PrepareForBuild:
+  ディレクトリ "Debug\" を作成しています。
+  ディレクトリ "Debug\CompilerIdCXX.tlog\" を作成しています。
+InitializeBuildStatus:
+  "AlwaysCreate" が指定されたため "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+  G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  ファイル "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" を削除しています。
+  "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate" のタッチ タスクを実行しています。
+プロジェクト "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (既定のターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+    0 個の警告
+    0 エラー
+
+経過時間 00:00:01.26
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "G:/yolo/yolo_210417/CMakeFiles/3.20.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/yolo/yolo_210417/CMakeFiles/CMakeTmp
+
+Run Build Command(s):G:/Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ab272.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework 向け Microsoft (R) Build Engine バージョン 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation.All rights reserved.
+
+  Microsoft(R) C/C++ Optimizing Compiler Version 19.28.29334 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ab272.dir\Debug\\" /Fd"cmTC_ab272.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "G:\cmake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+  cmTC_ab272.vcxproj -> G:\yolo\yolo_210417\CMakeFiles\CMakeTmp\Debug\cmTC_ab272.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/yolo/yolo_210417/CMakeFiles/CMakeTmp
+
+Run Build Command(s):G:/Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2e22e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework 向け Microsoft (R) Build Engine バージョン 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation.All rights reserved.
+
+  Microsoft(R) C/C++ Optimizing Compiler Version 19.28.29334 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2e22e.dir\Debug\\" /Fd"cmTC_2e22e.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "G:\cmake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_2e22e.vcxproj -> G:\yolo\yolo_210417\CMakeFiles\CMakeTmp\Debug\cmTC_2e22e.exe
+
+
+
+Looking for a CUDA compiler passed with the following output:
+-- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.19042.
+-- The CUDA compiler identification is NVIDIA 11.3.58
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin/nvcc.exe - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: G:/yolo/yolo_210417/CMakeFiles/CheckCUDA
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+Compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin/nvcc.exe 
+Build flags: 
+Id flags: --keep;--keep-dir;tmp -v
+
+The output was:
+0
+.NET Framework 向け Microsoft (R) Build Engine バージョン 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation.All rights reserved.
+
+2021/04/18 13:24:24 にビルドを開始しました。
+ノード 1 上のプロジェクト "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (既定のターゲット)。
+PrepareForBuild:
+  ディレクトリ "Debug\" を作成しています。
+  ディレクトリ "Debug\CompilerIdCUDA.tlog\" を作成しています。
+InitializeBuildStatus:
+  "AlwaysCreate" が指定されたため "Debug\CompilerIdCUDA.tlog\unsuccessfulbuild" を作成しています。
+AddCudaCompileDeps:
+  G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include" /I. /FIcuda_runtime.h /c G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCUDA\CMakeCUDACompilerId.cu 
+プロジェクト "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (1) は、ノード 1 上に "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (1:2) をビルドしています (CudaBuildCore ターゲット)。
+CudaBuildCore:
+  Compiling CUDA source file CMakeCUDACompilerId.cu...
+  cmd.exe /C "C:\Users\Riku\AppData\Local\Temp\tmpec86f6c6adf94f0f82a9fe49f55083d0.cmd"
+  "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin\nvcc.exe"  --use-local-env -ccbin "G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\CMakeCUDACompilerId.cu.obj "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCUDA\CMakeCUDACompilerId.cu"
+  
+  G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin\nvcc.exe"  --use-local-env -ccbin "G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\CMakeCUDACompilerId.cu.obj "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCUDA\CMakeCUDACompilerId.cu" 
+  #$ _NVVM_BRANCH_=nvvm
+  #$ _SPACE_= 
+  #$ _CUDART_=cudart
+  #$ _HERE_=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin
+  #$ _THERE_=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin
+  #$ _TARGET_SIZE_=
+  #$ _TARGET_DIR_=
+  #$ _TARGET_SIZE_=64
+  #$ _WIN_PLATFORM_=x64
+  #$ TOP=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin/..
+  #$ NVVMIR_LIBRARY_DIR=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin/../nvvm/libdevice
+  #$ PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin/../nvvm/bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin/../lib;G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64;G:\Windows Kits\10\bin\10.0.18362.0\x64;;G:\Windows Kits\10\bin\10.0.18362.0\x86;;G:\Visual Studio\2019\Community\Common7\tools;G:\Visual Studio\2019\Community\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;G:\Visual Studio\2019\Community\MSBuild\Current\Bin;C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;G:\Visual Studio\2019\Community\MSBuild\Current\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\libnvvp;;;;;;;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Live\Shared;C:\MinGW\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;G:\opencv\build\x64\vc15\bin;G:\texlive\2020\bin\win32;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;G:\Git\cmd;G:\cmake;;C:\Program Files (x86)\AOMEI\AOMEI Backupper 6.4.0;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;G:\cmake\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.1.0\;C:\Users\Riku\AppData\Local\Microsoft\WindowsApps;C:\Users\Riku\AppData\Local\atom\bin;C:\MinGW\bin;G:\Microsoft VS Code\bin;G:\texlive\2020\bin\win32;G:\Anaconda;G:\cmake\bin;G:\opencv\build\x64\vc15\bin;G:\Windows Kits\10\bin;C:\Program Files\NVIDIA Corporation\NVSMI;C:\Users\Riku\AppData\Local\Microsoft\WindowsApps;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2;;
+  #$ INCLUDES="-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin/../include"  
+  #$ LIBRARIES=  "/LIBPATH:C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin/../lib/x64"
+  #$ CUDAFE_FLAGS=--sdk_dir "G:\Windows Kits\10"
+  #$ PTXAS_FLAGS=
+  CMakeCUDACompilerId.cu
+  #$ cl.exe @"C:\Users\Riku\AppData\Local\Temp/tmpxft_00005fc4_00000000-9.res" > "C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-8_CMakeCUDACompilerId.cpp1.ii" 
+  CMakeCUDACompilerId.cu
+  #$ erase C:\Users\Riku\AppData\Local\Temp/tmpxft_00005fc4_00000000-9.res
+  #$ cicc --microsoft_version=1928 --msvc_target_version=1928 --compiler_bindir "G:/Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/HostX64/x64/../../../../../../.." --orig_src_file_name "G:/yolo/yolo_210417/CMakeFiles/3.20.1/CompilerIdCUDA/CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "G:\Windows Kits\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00005fc4_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --gen_module_id_file --module_id_file_name "C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-8_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-7_CMakeCUDACompilerId.ptx"
+  #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-10_CMakeCUDACompilerId.sm_52.cubin" 
+  #$ fatbinary -64 --ident="G:/yolo/yolo_210417/CMakeFiles/3.20.1/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-10_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-4_CMakeCUDACompilerId.fatbin.c" 
+  #$ erase C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-4_CMakeCUDACompilerId.fatbin
+  #$ cl.exe @"C:\Users\Riku\AppData\Local\Temp/tmpxft_00005fc4_00000000-11.res" > "C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+  CMakeCUDACompilerId.cu
+  #$ erase C:\Users\Riku\AppData\Local\Temp/tmpxft_00005fc4_00000000-11.res
+  #$ cudafe++ --microsoft_version=1928 --msvc_target_version=1928 --compiler_bindir "G:/Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/HostX64/x64/../../../../../../.." --orig_src_file_name "G:/yolo/yolo_210417/CMakeFiles/3.20.1/CompilerIdCUDA/CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "G:\Windows Kits\10" --m64 --parse_templates --gen_c_file_name "C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00005fc4_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/Riku/AppData/Local/Temp/tmpxft_00005fc4_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+  #$ cl.exe @"C:\Users\Riku\AppData\Local\Temp/tmpxft_00005fc4_00000000-12.res" -Fo"Debug/CMakeCUDACompilerId.cu.obj" 
+  tmpxft_00005fc4_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
+  #$ erase C:\Users\Riku\AppData\Local\Temp/tmpxft_00005fc4_00000000-12.res
+プロジェクト "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (CudaBuildCore ターゲット) のビルドが完了しました。
+Link:
+  G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\lib\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCUDA.lib" /MACHINE:X64 Debug\CMakeCUDACompilerId.cu.obj
+     ライブラリ .\CompilerIdCUDA.lib とオブジェクト .\CompilerIdCUDA.exp を作成中
+  CompilerIdCUDA.vcxproj -> G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCUDA\CompilerIdCUDA.exe
+PostBuildEvent:
+  echo CMAKE_CUDA_COMPILER=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin\nvcc.exe
+  :VCEnd
+  CMAKE_CUDA_COMPILER=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin\nvcc.exe
+FinalizeBuildStatus:
+  ファイル "Debug\CompilerIdCUDA.tlog\unsuccessfulbuild" を削除しています。
+  "Debug\CompilerIdCUDA.tlog\CompilerIdCUDA.lastbuildstate" のタッチ タスクを実行しています。
+プロジェクト "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (既定のターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+    0 個の警告
+    0 エラー
+
+経過時間 00:00:03.08
+
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+
+The CUDA compiler identification is NVIDIA, found in "G:/yolo/yolo_210417/CMakeFiles/3.20.1/CompilerIdCUDA/CompilerIdCUDA.exe"
+
+Parsed CUDA nvcc include information from above output:
+  found 'INCLUDES=' string: ["-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin/../include"  ]
+
+
+
+Detecting CUDA compiler ABI info compiled with the following output:
+Change Dir: G:/yolo/yolo_210417/CMakeFiles/CMakeTmp
+
+Run Build Command(s):G:/Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ed43f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework 向け Microsoft (R) Build Engine バージョン 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation.All rights reserved.
+
+  Compiling CUDA source file ..\..\..\..\cmake\share\cmake-3.20\Modules\CMakeCUDACompilerABI.cu...
+  
+  G:\yolo\yolo_210417\CMakeFiles\CMakeTmp>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"compute_52,compute_52\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64" -x cu    -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include"     --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_ed43f.dir\Debug\vc142.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_ed43f.dir\Debug\CMakeCUDACompilerABI.obj "G:\cmake\share\cmake-3.20\Modules\CMakeCUDACompilerABI.cu" 
+cl : コマンド ライン warning D9002: 不明なオプション '-v' を無視します。 [G:\yolo\yolo_210417\CMakeFiles\CMakeTmp\cmTC_ed43f.vcxproj]
+cl : コマンド ライン warning D9002: 不明なオプション '-v' を無視します。 [G:\yolo\yolo_210417\CMakeFiles\CMakeTmp\cmTC_ed43f.vcxproj]
+  CMakeCUDACompilerABI.cu
+cl : コマンド ライン warning D9002: 不明なオプション '-v' を無視します。 [G:\yolo\yolo_210417\CMakeFiles\CMakeTmp\cmTC_ed43f.vcxproj]
+LINK : warning LNK4044: オプション '/v' は無効です。無視されます。 [G:\yolo\yolo_210417\CMakeFiles\CMakeTmp\cmTC_ed43f.vcxproj]
+     ライブラリ G:/yolo/yolo_210417/CMakeFiles/CMakeTmp/Debug/cmTC_ed43f.lib とオブジェクト G:/yolo/yolo_210417/CMakeFiles/CMakeTmp/Debug/cmTC_ed43f.exp を作成中
+  cmTC_ed43f.vcxproj -> G:\yolo\yolo_210417\CMakeFiles\CMakeTmp\Debug\cmTC_ed43f.exe
+
+
+
+Parsed CUDA implicit include dir info from above output: rv=start
+  warn: unable to parse implicit include dirs!
+
+
+Parsed CUDA implicit link information from above output:
+  link line regex: [^( *|.*[/\])(link\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: G:/yolo/yolo_210417/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):G:/Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ed43f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework 向け Microsoft (R) Build Engine バージョン 16.8.2+25e4d540b]
+  ignore line: [Copyright (C) Microsoft Corporation.All rights reserved.]
+  ignore line: []
+  ignore line: [  Compiling CUDA source file ..\..\..\..\cmake\share\cmake-3.20\Modules\CMakeCUDACompilerABI.cu...]
+  ignore line: [  ]
+  ignore line: [  G:\yolo\yolo_210417\CMakeFiles\CMakeTmp>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin\nvcc.exe" -gencode=arch=compute_52 code=\"compute_52 compute_52\" -gencode=arch=compute_52 code=\"sm_52 compute_52\" --use-local-env -ccbin "G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64" -x cu    -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include"     --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_ed43f.dir\Debug\vc142.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_ed43f.dir\Debug\CMakeCUDACompilerABI.obj "G:\cmake\share\cmake-3.20\Modules\CMakeCUDACompilerABI.cu" ]
+  ignore line: [cl : コマンド ライン warning D9002: 不明なオプション '-v' を無視します。 [G:\yolo\yolo_210417\CMakeFiles\CMakeTmp\cmTC_ed43f.vcxproj]]
+  ignore line: [cl : コマンド ライン warning D9002: 不明なオプション '-v' を無視します。 [G:\yolo\yolo_210417\CMakeFiles\CMakeTmp\cmTC_ed43f.vcxproj]]
+  ignore line: [  CMakeCUDACompilerABI.cu]
+  ignore line: [cl : コマンド ライン warning D9002: 不明なオプション '-v' を無視します。 [G:\yolo\yolo_210417\CMakeFiles\CMakeTmp\cmTC_ed43f.vcxproj]]
+  ignore line: [LINK : warning LNK4044: オプション '/v' は無効です。無視されます。 [G:\yolo\yolo_210417\CMakeFiles\CMakeTmp\cmTC_ed43f.vcxproj]]
+  ignore line: [     ライブラリ G:/yolo/yolo_210417/CMakeFiles/CMakeTmp/Debug/cmTC_ed43f.lib とオブジェクト G:/yolo/yolo_210417/CMakeFiles/CMakeTmp/Debug/cmTC_ed43f.exp を作成中]
+  ignore line: [  cmTC_ed43f.vcxproj -> G:\yolo\yolo_210417\CMakeFiles\CMakeTmp\Debug\cmTC_ed43f.exe]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: /DWIN32;/D_WINDOWS
+Id flags:  
+
+The output was:
+0
+.NET Framework 向け Microsoft (R) Build Engine バージョン 16.9.0+5e4b48a27
+Copyright (C) Microsoft Corporation.All rights reserved.
+
+2021/05/09 22:07:55 にビルドを開始しました。
+ノード 1 上のプロジェクト "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdC\CompilerIdC.vcxproj" (既定のターゲット)。
+PrepareForBuild:
+  ディレクトリ "Debug\" を作成しています。
+  ディレクトリ "Debug\CompilerIdC.tlog\" を作成しています。
+InitializeBuildStatus:
+  "AlwaysCreate" が指定されたため "Debug\CompilerIdC.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+  G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  ファイル "Debug\CompilerIdC.tlog\unsuccessfulbuild" を削除しています。
+  "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate" のタッチ タスクを実行しています。
+プロジェクト "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdC\CompilerIdC.vcxproj" (既定のターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+    0 個の警告
+    0 エラー
+
+経過時間 00:00:03.26
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "G:/yolo/yolo_210417/CMakeFiles/3.20.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+Id flags:  
+
+The output was:
+0
+.NET Framework 向け Microsoft (R) Build Engine バージョン 16.9.0+5e4b48a27
+Copyright (C) Microsoft Corporation.All rights reserved.
+
+2021/05/09 22:07:59 にビルドを開始しました。
+ノード 1 上のプロジェクト "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (既定のターゲット)。
+PrepareForBuild:
+  ディレクトリ "Debug\" を作成しています。
+  ディレクトリ "Debug\CompilerIdCXX.tlog\" を作成しています。
+InitializeBuildStatus:
+  "AlwaysCreate" が指定されたため "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+  G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=G:\Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  ファイル "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" を削除しています。
+  "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate" のタッチ タスクを実行しています。
+プロジェクト "G:\yolo\yolo_210417\CMakeFiles\3.20.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (既定のターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+    0 個の警告
+    0 エラー
+
+経過時間 00:00:01.08
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "G:/yolo/yolo_210417/CMakeFiles/3.20.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/yolo/yolo_210417/CMakeFiles/CMakeTmp
+
+Run Build Command(s):G:/Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bc150.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework 向け Microsoft (R) Build Engine バージョン 16.9.0+5e4b48a27
+Copyright (C) Microsoft Corporation.All rights reserved.
+
+  Microsoft(R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc150.dir\Debug\\" /Fd"cmTC_bc150.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "G:\cmake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+  cmTC_bc150.vcxproj -> G:\yolo\yolo_210417\CMakeFiles\CMakeTmp\Debug\cmTC_bc150.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/yolo/yolo_210417/CMakeFiles/CMakeTmp
+
+Run Build Command(s):G:/Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_43a58.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework 向け Microsoft (R) Build Engine バージョン 16.9.0+5e4b48a27
+Copyright (C) Microsoft Corporation.All rights reserved.
+
+  Microsoft(R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_43a58.dir\Debug\\" /Fd"cmTC_43a58.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "G:\cmake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_43a58.vcxproj -> G:\yolo\yolo_210417\CMakeFiles\CMakeTmp\Debug\cmTC_43a58.exe
+
+
+

@@ -1,0 +1,10 @@
+^G:\YOLO\YOLO_210417\CMAKEFILES\EB0F845C1D1B593C362B53E4DCC93595\GENERATE.STAMP.RULE
+setlocal
+G:\cmake\bin\cmake.exe -SG:/yolo/darknet-master -BG:/yolo/yolo_210417 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/yolo/yolo_210417/Darknet.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

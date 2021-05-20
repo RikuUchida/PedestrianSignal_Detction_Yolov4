@@ -1,0 +1,6 @@
+G:/yolo/yolo_210417/CMakeFiles/dark.dir
+G:/yolo/yolo_210417/CMakeFiles/uselib.dir
+G:/yolo/yolo_210417/CMakeFiles/INSTALL.dir
+G:/yolo/yolo_210417/CMakeFiles/darknet.dir
+G:/yolo/yolo_210417/CMakeFiles/ALL_BUILD.dir
+G:/yolo/yolo_210417/CMakeFiles/ZERO_CHECK.dir
