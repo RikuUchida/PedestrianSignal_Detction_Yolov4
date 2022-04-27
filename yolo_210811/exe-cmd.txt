@@ -1,0 +1,19 @@
+for test
+darknet.exe detector test data/obj.data cfg/yolo-obj.cfg backup/yolo-obj_last.weights
+
+with camera
+darknet.exe detector demo data/obj.data cfg/yolo-obj.cfg backup/yolo-obj_last.weights -c 0
+
+with videofile
+darknet.exe detector demo data/obj.data cfg/yolo-obj.cfg backup/yolo-obj_last.weights test-data/IMG_9467.mp4 -out_filename test-data/out9467.mp4
+
+with file
+darknet.exe detector test data/obj.data cfg/yolo-obj.cfg backup/yolo-obj_last.weights -ext_output < data/test.txt > result.txt 
+
+for train
+darknet.exe detector train data/obj.data cfg/yolo-obj.cfg yolov4.conv.137 -map
+
+with multi gpu
+darknet.exe detector train cfg/coco.data cfg/yolov4.cfg /backup/yolov4_1000.weights -gpus 0,1,2,3
+
+
