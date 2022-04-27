@@ -43,4 +43,4 @@ cd yolo/darknet/yolo210811
 ```
 
 [yolo210811][]ディレクトリにある **exe-cmd.txt** に実行コマンドの例がある.  
-[yolo210811]:  "cmdディレクトリ"
+[yolo210811]: https://github.com/RikuUchida/PedestrianSignal_Detction_Yolov4/tree/main/yolo_210811 "cmdディレクトリ"
