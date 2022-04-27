@@ -23,7 +23,7 @@ git clone ...
 ```
 また追加で、[google drive][]から画像データや学習済みモデルなどをダウンロードする.  
 
-[google drive]: https://drive.google.com/drive/folders/1Ftsr-N1k9SR_-vhdVY7jeSRR7Ow1tybI?usp=sharing "drive"
+[google drive]: https://drive.google.com/drive/folders/1Ftsr-N1k9SR_-vhdVY7jeSRR7Ow1tybI?usp=sharing{:target="_blank"} "drive" 
 
 ## yolov4を実行
 pullしてきたDocker imageを立ち上げる.  
