@@ -22,8 +22,9 @@ docker pull daisukekobayashi/darknet:yolov4-gpu-cv-cc86-11.2.0-ubuntu18.04
 git clone ...
 ```
 また追加で、[google drive][]から画像データや学習済みモデルなどをダウンロードする.  
+Google driveから**backup**と**obj**と**labels** を[yolo210811][]ディレクトリにダウンロードする.  
 
-[google drive]: https://drive.google.com/drive/folders/1Ftsr-N1k9SR_-vhdVY7jeSRR7Ow1tybI?usp=sharing{:target="_blank"} "drive" 
+[google drive]: https://drive.google.com/drive/folders/1Ftsr-N1k9SR_-vhdVY7jeSRR7Ow1tybI?usp=sharing "drive" 
 
 ## yolov4を実行
 pullしてきたDocker imageを立ち上げる.  
