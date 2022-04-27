@@ -1,6 +1,8 @@
 # yolov4の環境設定・使い方
-darknetのyolov4を使って歩行者用信号機を検出するモデルと信号の色を判別するモデルを作成した.  
+[AlexeyAB/darknet][]のyolov4を使って歩行者用信号機を検出するモデルと信号の色を判別するモデルを作成した.  
 ここではdockerを使い、yolov4で学習及び上記の学習したモデルのテストができる環境を紹介する.  
+
+[AlexeyAB/darknet]: https://github.com/AlexeyAB/darknet "alexeyAB"
 
 ## 実行環境
 以下の環境で使用した.  
@@ -39,7 +41,7 @@ cd yolo/darknet/yolo210811
 ### yolov4のコマンド
 学習済みモデルを使ってテストする.  
 ```
-./darknet detector test data/obj.data cfg/yolo-obj.cfg backup/yolo-obj_last.weights
+./darknet detector test data/obj.data cfg/yolo-obj.cfg backup/colour_detect.weights
 ```
 [yolo210811][]ディレクトリにある[exe_cmd.txt][]に実行コマンドの例がある.  
 
