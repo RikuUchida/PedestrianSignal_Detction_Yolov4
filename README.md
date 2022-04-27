@@ -3,7 +3,7 @@ darknetのyolov4を使って歩行者用信号機を検出するモデルと信�
 ここではdockerを使い、yolov4で学習及び上記の学習したモデルのテストができる環境を紹介する.  
 
 ## 実行環境
-以下の環境で実行した.  
+以下の環境で使用した.  
 |OS|Ubuntu 18.04|
 |--|--|
 |GPU|Geforce RTX 3060 Ti|
@@ -15,13 +15,15 @@ daisukekobayashiさんがDockerHubで公開している[image][]を使う.
 ```
 docker pull daisukekobayashi/darknet:yolov4-gpu-cv-cc86-11.2.0-ubuntu18.04
 ```
-[image]: https://hub.docker.com/r/daisukekobayashi/darknet/ "daisukekobayashi"  
+[image]: https://hub.docker.com/r/daisukekobayashi/darknet/ "docker"  
 
 ### GitHubからダウンロード
 ```
 git clone ...
 ```
-google driveから画像データや学習済みモデルなどをダウンロードする.  
+また追加で、[google drive][]から画像データや学習済みモデルなどをダウンロードする.  
+
+[google drive]: https://drive.google.com/drive/folders/1Ftsr-N1k9SR_-vhdVY7jeSRR7Ow1tybI?usp=sharing "drive"
 
 ## yolov4を実行
 pullしてきたDocker imageを立ち上げる.  
@@ -39,4 +41,5 @@ cd yolo/darknet/yolo210811
 ./darknet detector test data/obj.data cfg/yolo-obj.cfg backup/yolo-obj_last.weights
 ```
 
-yolo210811ディレクトリにある **exe-cmd.txt** に実行コマンドの例がある.  
+[yolo210811][]ディレクトリにある **exe-cmd.txt** に実行コマンドの例がある.  
+[yolo210811]:  "cmdディレクトリ"
