@@ -22,10 +22,10 @@ docker pull daisukekobayashi/darknet:yolov4-gpu-cv-cc86-11.2.0-ubuntu18.04
 git clone ...
 ```
 また追加で、[google drive][]から画像データや学習済みモデルなどをダウンロードする.  
-Google driveから**backup**と**obj**と**labels** を[yolo210811][]ディレクトリにダウンロードする.  
+Google driveから**backup**と**obj**と**labels** をPedestrianSignal_Detction_Yolov4/[yolo210811][]ディレクトリにダウンロードする.  
 
 [google drive]: https://drive.google.com/drive/folders/1Ftsr-N1k9SR_-vhdVY7jeSRR7Ow1tybI?usp=sharing "drive" 
-
+[yolo210811]: https://github.com/RikuUchida/PedestrianSignal_Detction_Yolov4/tree/main/yolo_210811 "cmdディレクトリ" 
 ## yolov4を実行
 pullしてきたDocker imageを立ち上げる.  
 ```
@@ -42,5 +42,5 @@ cd yolo/darknet/yolo210811
 ./darknet detector test data/obj.data cfg/yolo-obj.cfg backup/yolo-obj_last.weights
 ```
 
-[yolo210811][]ディレクトリにある **exe-cmd.txt** に実行コマンドの例がある.  
-[yolo210811]: https://github.com/RikuUchida/PedestrianSignal_Detction_Yolov4/tree/main/yolo_210811 "cmdディレクトリ"
+PedestrianSignal_Detction_Yolov4/[yolo210811][]ディレクトリにある **exe-cmd.txt** に実行コマンドの例がある.  
+
