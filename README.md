@@ -41,5 +41,6 @@ cd yolo/darknet/yolo210811
 ```
 ./darknet detector test data/obj.data cfg/yolo-obj.cfg backup/yolo-obj_last.weights
 ```
-[yolo210811][]ディレクトリにある **exe-cmd.txt** に実行コマンドの例がある.  
+[yolo210811][]ディレクトリにある[exe_cmd.txt][]に実行コマンドの例がある.  
 
+[exe_cmd.txt]: https://github.com/RikuUchida/PedestrianSignal_Detction_Yolov4/blob/main/yolo_210811/exe-cmd.txt "cmd.txt" 
