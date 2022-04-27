@@ -2,13 +2,20 @@
 darknetのyolov4を使って歩行者用信号機を検出するモデルと信号の色を判別するモデルを作成した.  
 ここではdockerを使い、yolov4で学習及び上記の学習したモデルのテストができる環境を紹介する.  
 
+## 実行環境
+以下の環境で実行した.  
+|OS|Ubuntu 18.04|
+|--|--|
+|GPU|Geforce RTX 3060 Ti|
+
 ## 環境設定
 ### Dockerを使う
-daisukekobayashiさんがDockerHubで公開しているimageを使う.  
+daisukekobayashiさんがDockerHubで公開している[image][]を使う.  
 以下のコマンドでimageをpullする.  
 ```
 docker pull daisukekobayashi/darknet:yolov4-gpu-cv-cc86-11.2.0-ubuntu18.04
 ```
+[image]: https://hub.docker.com/r/daisukekobayashi/darknet/ "daisukekobayashi"  
 
 ### GitHubからダウンロード
 ```
