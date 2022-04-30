@@ -6,9 +6,9 @@
 
 ## 実行環境
 以下の環境で使用した.  
-|OS|Ubuntu 18.04|
-|-|-|
-|GPU|Geforce RTX 3060 Ti|
+* Ubuntu 18.04 desktop
+* AMD Ryzen7 3700X 8-Core Processor
+* Geforce RTX 3060 Ti
 
 ## 環境設定
 ### Dockerを使う
