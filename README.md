@@ -21,7 +21,7 @@ docker pull daisukekobayashi/darknet:yolov4-gpu-cv-cc86-11.2.0-ubuntu18.04
 
 ### GitHubからダウンロード
 ```
-git clone ...
+git clone https://github.com/RikuUchida/PedestrianSignal_Detction_Yolov4.git
 ```
 また追加で、[google drive][]から画像データや学習済みモデルなどをダウンロードする.  
 Google driveから**backup**と**obj**と**labels** を[yolo210811][]ディレクトリにダウンロードする.  
