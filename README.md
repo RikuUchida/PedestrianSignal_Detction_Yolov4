@@ -7,7 +7,7 @@
 ## 実行環境
 以下の環境で使用した.  
 |OS|Ubuntu 18.04|
-|--|--|
+|-|-|
 |GPU|Geforce RTX 3060 Ti|
 
 ## 環境設定
@@ -39,18 +39,29 @@ cd yolo/darknet/yolo210811
 ```
 
 ### yolov4のコマンド
-学習済みモデルを使ってテストする.  
-
+学習済みモデルを使って信号機検出を行う.  
+#### 画像を入力とする場合：
 ```
-./darknet detector test data/obj.data cfg/yolo-obj.cfg backup/colour_detect.weights
+./darknet detector test data/traffic.data cfg/traffic.cfg backup/traffic_detect.weights
 ```
+モデルの読み込みなどが終わると
+```
+Enter Image Path:
+```
+と出でて、画像のPATHを入力すると下の画像のように出力される.  
 ![predictions](https://user-images.githubusercontent.com/54020567/166098516-37b1059d-dd9a-429f-a3a7-1b1eb4972d09.jpg)
 
+#### 動画を入力とする場合：
+```
+./darknet detector demo data/traffic.data cfg/traffic.cfg backup/traffic_detect.weights MOVIE_PATH -out_filename SAVE_PATH
+```
+***MOVIE_PATH***には動画のPATHを入力し、***SAVE_PATH***には出力される動画の保存場所を入力する.  
+出力される動画の例:  
 <img src="https://user-images.githubusercontent.com/54020567/166098008-34c12776-6c8f-4c4a-bd73-c380e916c4e0.gif" width="320px">
 <img src="https://user-images.githubusercontent.com/54020567/166098026-5a9876cc-25b8-4b7a-9479-1a843b66e479.gif" width="320px">
 <img src="https://user-images.githubusercontent.com/54020567/166098040-cc93a607-8b2c-4a3c-acee-a7cbde612948.gif" width="320px">  
-
-[yolo210811][]ディレクトリにある[exe_cmd.txt][]に実行コマンドの例がある.  
-
+[yolo210811][]ディレクトリにある[exe_cmd.txt][]にその他実行コマンドの例がある.  
+  
+***信号の色を判別する場合***は各コマンドの***trafficをcolourに置換***すると色判別のモデルが読み込まれる.  
 
 [exe_cmd.txt]: https://github.com/RikuUchida/PedestrianSignal_Detction_Yolov4/blob/main/yolo_210811/exe-cmd.txt "cmd.txt" 
