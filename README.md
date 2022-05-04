@@ -1,6 +1,6 @@
 # PedestrianSignal_Detction_Yolov4
 
-<img src="https://user-images.githubusercontent.com/54020567/166098008-34c12776-6c8f-4c4a-bd73-c380e916c4e0.gif" width="320px"><img src="https://user-images.githubusercontent.com/54020567/166098026-5a9876cc-25b8-4b7a-9479-1a843b66e479.gif" width="320px"><img src="https://user-images.githubusercontent.com/54020567/166098040-cc93a607-8b2c-4a3c-acee-a7cbde612948.gif" width="320px">  
+<img src="https://user-images.githubusercontent.com/54020567/166098008-34c12776-6c8f-4c4a-bd73-c380e916c4e0.gif" width="260px"><img src="https://user-images.githubusercontent.com/54020567/166098026-5a9876cc-25b8-4b7a-9479-1a843b66e479.gif" width="260px"><img src="https://user-images.githubusercontent.com/54020567/166098040-cc93a607-8b2c-4a3c-acee-a7cbde612948.gif" width="260px">  
 
 # 概要
 [AlexeyAB/darknet][]のyolov4を使用し, 歩行者用信号機を検出するモデルと信号の色を判別するモデルを作成した. 
