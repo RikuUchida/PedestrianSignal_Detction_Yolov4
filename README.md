@@ -4,7 +4,8 @@
 
 # 概要
 [AlexeyAB/darknet][]のyolov4を使用し, 歩行者用信号機を検出するモデルと信号の色を判別するモデルを作成した. 
-本パッケージでは作成したモデルを使用することで信号の認識（歩行者用信号機, 信号の色）を行うことができる. 
+
+本パッケージは, 作成したモデルを使用することで歩行者信号機の認識を行うことができる. 
 
 ## 実行環境
 * Ubuntu 18.04 desktop
@@ -14,7 +15,8 @@
 # 使用方法
 
 dockerを使用することでyolov4のための環境構築を行う. 
-またyolov4にて学習及び上記の学習したモデルのテスト方法について紹介する.  
+
+また, yolov4にて学習したモデルのテスト方法について紹介する.  
 
 [AlexeyAB/darknet]: https://github.com/AlexeyAB/darknet "alexeyAB"
 
@@ -37,7 +39,7 @@ Google driveから**backup**と**obj**と**labels** を[yolo210811][]ディレ�
 [google drive]: https://drive.google.com/drive/folders/1Ftsr-N1k9SR_-vhdVY7jeSRR7Ow1tybI?usp=sharing "drive" 
 [yolo210811]: https://github.com/RikuUchida/PedestrianSignal_Detction_Yolov4/tree/main/yolo_210811 "cmdディレクトリ" 
 ## yolov4を実行
-pullしてきたDocker imageを立ち上げる.  
+pullしてきたdocker imageを使用しコンテナを作成する.  
 ```
 docker run -gpus all --rm -it -v $PWD:/yolo_docker --name yolov4-gpu-11.2-18.04 daisukekobayashi/darknet:yolov4-gpu-cv-cc86-11.2.0-ubuntu18.04  
 ```
@@ -46,8 +48,8 @@ docker内のディレクトリを移動.
 cd yolo/darknet/yolo210811  
 ```
 
-### yolov4のコマンド
-学習済みモデルを使って信号機検出を行う.  
+### 学習したモデルによる歩行者信号機の検出
+学習済みモデルを使って歩行者信号機検出を行う.  
 #### 画像を入力とする場合：
 ```
 ./darknet detector test data/traffic.data cfg/traffic.cfg backup/traffic_detect.weights
